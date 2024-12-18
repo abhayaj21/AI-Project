@@ -7,7 +7,7 @@ import userRouter from "./routes/userRoutes.js";
 import imageRouter from "./controllers/imageRoutes.js";
 
 const app = express();
-const port = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
